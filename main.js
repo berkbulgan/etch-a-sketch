@@ -24,8 +24,6 @@ const selectSize = document.querySelector("#selectSize");
 const selectColor = document.querySelector("#selectColor");
 const gridBoxes = document.querySelectorAll(".grid-item");
 drawBtn.addEventListener('click', drawGrid(selectSize.value));
-//gridBoxes.forEach(key => box.addEventListener('transitionend', removeHover));
-//gridBoxes.forEach(box => box.addEventListener('onhover', addHover));
 gridBoxes.forEach(box => box.addEventListener('click', paintBox));
 
 
