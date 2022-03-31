@@ -1,0 +1,13 @@
+.grid-container{
+    height: 960px;
+    width: 960px;
+    border: 8px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.grid-item{
+    box-sizing: border-box;
+    border: 1px black solid;
+}
